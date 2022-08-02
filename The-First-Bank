@@ -1,0 +1,16 @@
+package model;
+
+import controller.Account;
+
+public class FirstBank {
+	
+	public static void main(String[] args) {
+		//TODO Auto-generated method stub
+		
+		Account danilo = new Account("Danilo","A0001");
+		
+		Account dumbledor = new Account("Dumbledor","B0002");
+		dumbledor.showMenu();
+	}
+
+}
